@@ -134,7 +134,6 @@ Disponible para prácticas, pasantías o cargo junior en **desarrollo web, backe
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianrami2202-ux&layout=compact&theme=tokyonight&hide_border=true&locale=es" alt="Lenguajes más utilizados" height="180"/>
 </p>
 <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=cristianrami2202-ux&theme=tokyonight&hide_border=true&locale=es" alt="Racha de contribuciones de GitHub"/> </p>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=cristianrami2202-ux&style=for-the-badge&color=blueviolet" alt="Visitas al perfil"/> </p>
 
 
 <img src="footer.svg" width="100%" alt="Gracias por visitar mi perfil"/>
