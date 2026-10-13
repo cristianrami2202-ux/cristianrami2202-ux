@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="Resumen de impacto: 84 requisitos funcionales, 35 no funcionales, ~69 páginas de SRS, 3 motores de datos, 5 proyectos web">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.55" stop-color="#7c4dff"/>
+      <stop offset="1" stop-color="#ff4dd8"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="'Segoe UI', Arial, Helvetica, sans-serif" text-anchor="middle">
+
+    <g transform="translate(0 20)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="0s" repeatCount="indefinite"/>
+        <rect width="216" height="130" rx="16" fill="#0a1226" stroke="url(#neon)" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="0s" repeatCount="indefinite"/>
+        </rect>
+        <text x="108" y="68" font-size="52" font-weight="800" fill="url(#neon)">84</text>
+        <text x="108" y="96" font-size="15" fill="#cfe8ff">requisitos</text>
+        <text x="108" y="116" font-size="15" fill="#8fa3d9">funcionales</text>
+      </g>
+    </g>
+
+    <g transform="translate(246 20)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="0.4s" repeatCount="indefinite"/>
+        <rect width="216" height="130" rx="16" fill="#0a1226" stroke="url(#neon)" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+        </rect>
+        <text x="108" y="68" font-size="52" font-weight="800" fill="url(#neon)">35</text>
+        <text x="108" y="96" font-size="15" fill="#cfe8ff">requisitos no</text>
+        <text x="108" y="116" font-size="15" fill="#8fa3d9">funcionales</text>
+      </g>
+    </g>
+
+    <g transform="translate(492 20)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+        <rect width="216" height="130" rx="16" fill="#0a1226" stroke="url(#neon)" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+        </rect>
+        <text x="108" y="68" font-size="52" font-weight="800" fill="url(#neon)">~69</text>
+        <text x="108" y="96" font-size="15" fill="#cfe8ff">páginas de SRS</text>
+        <text x="108" y="116" font-size="15" fill="#8fa3d9">IEEE 830-1998</text>
+      </g>
+    </g>
+
+    <g transform="translate(738 20)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+        <rect width="216" height="130" rx="16" fill="#0a1226" stroke="url(#neon)" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+        </rect>
+        <text x="108" y="68" font-size="52" font-weight="800" fill="url(#neon)">3</text>
+        <text x="108" y="96" font-size="15" fill="#cfe8ff">motores de datos</text>
+        <text x="108" y="116" font-size="15" fill="#8fa3d9">MySQL · PostgreSQL · Mongo</text>
+      </g>
+    </g>
+
+    <g transform="translate(984 20)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" begin="1.6s" repeatCount="indefinite"/>
+        <rect width="216" height="130" rx="16" fill="#0a1226" stroke="url(#neon)" stroke-width="1.5">
+          <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+        </rect>
+        <text x="108" y="68" font-size="52" font-weight="800" fill="url(#neon)">5</text>
+        <text x="108" y="96" font-size="15" fill="#cfe8ff">proyectos web</text>
+        <text x="108" y="116" font-size="15" fill="#8fa3d9">construidos</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
