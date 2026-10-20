@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Gracias por visitar mi perfil">
+  <defs>
+    <linearGradient id="w" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.5" stop-color="#7c4dff"/>
+      <stop offset="1" stop-color="#ff4dd8"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1530" stop-opacity="0"/>
+      <stop offset="1" stop-color="#070b16" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#w)" opacity="0.25" d="M0,70 C200,30 400,110 600,70 S1000,30 1200,70 L1200,140 L0,140 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0,70 C200,30 400,110 600,70 S1000,30 1200,70 L1200,140 L0,140 Z;M0,70 C200,110 400,30 600,70 S1000,110 1200,70 L1200,140 L0,140 Z;M0,70 C200,30 400,110 600,70 S1000,30 1200,70 L1200,140 L0,140 Z"/>
+  </path>
+  <path fill="url(#w)" opacity="0.45" d="M0,80 C250,50 450,110 650,80 S1000,50 1200,80 L1200,140 L0,140 Z">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="M0,80 C250,50 450,110 650,80 S1000,50 1200,80 L1200,140 L0,140 Z;M0,80 C250,110 450,50 650,80 S1000,110 1200,80 L1200,140 L0,140 Z;M0,80 C250,50 450,110 650,80 S1000,50 1200,80 L1200,140 L0,140 Z"/>
+  </path>
+  <path fill="url(#w)" opacity="0.75" d="M0,95 C300,75 500,115 700,95 S1050,75 1200,95 L1200,140 L0,140 Z">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+      values="M0,95 C300,75 500,115 700,95 S1050,75 1200,95 L1200,140 L0,140 Z;M0,95 C300,115 500,75 700,95 S1050,115 1200,95 L1200,140 L0,140 Z;M0,95 C300,75 500,115 700,95 S1050,75 1200,95 L1200,140 L0,140 Z"/>
+  </path>
+
+  <rect x="0" y="100" width="1200" height="40" fill="url(#base)"/>
+
+  <text x="600" y="122" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#ffffff">
+    ¡Gracias por visitar mi perfil!
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="3s" repeatCount="indefinite"/>
+  </text>
+</svg>

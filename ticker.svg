@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 48" width="1200" height="48" role="img" aria-label="Tecnologías: HTML5, Bootstrap 5, JavaScript, Node.js, Express, Python, MySQL, PostgreSQL, MongoDB, IEEE 830, modelado ER">
+  <defs>
+    <linearGradient id="neon" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.5" stop-color="#7c4dff"/>
+      <stop offset="1" stop-color="#ff4dd8"/>
+    </linearGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a1226" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0a1226" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a1226" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a1226" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="band"><rect x="1" y="1" width="1198" height="46" rx="23"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="46" rx="23" fill="#0a1226" stroke="url(#neon)" stroke-width="1.5"/>
+
+  <g clip-path="url(#band)">
+    <g font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#cfe8ff">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1500 0" dur="26s" repeatCount="indefinite"/>
+        <text x="0" y="30" textLength="1500">HTML5  •  Bootstrap 5  •  JavaScript  •  Node.js  •  Express  •  Python  •  MySQL  •  PostgreSQL  •  MongoDB  •  IEEE 830  •  Modelado ER  •  </text>
+        <text x="1500" y="30" textLength="1500">HTML5  •  Bootstrap 5  •  JavaScript  •  Node.js  •  Express  •  Python  •  MySQL  •  PostgreSQL  •  MongoDB  •  IEEE 830  •  Modelado ER  •  </text>
+      </g>
+    </g>
+    <rect x="1" y="1" width="90" height="46" fill="url(#fadeL)"/>
+    <rect x="1109" y="1" width="90" height="46" fill="url(#fadeR)"/>
+  </g>
+</svg>
