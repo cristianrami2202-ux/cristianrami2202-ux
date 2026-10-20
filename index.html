@@ -1,1 +1,161 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoja de vida — Cristian</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600;700&display=swap');
+:root{--bg:#0d0619;--panel:#1a0f33;--cyan:#d4b5ff;--pink:#b44cff;--purple:#7c3aed;--white:#f1eafc;--muted:#b3a3d6;--line:#5a328f}
+*{box-sizing:border-box}
+html{background:#0a0514;scroll-behavior:smooth}
+body{margin:0;color:var(--white);font-family:Inter,Arial,sans-serif;background:#0a0514;font-size:13px;line-height:1.55}
+.page{position:relative;width:min(100%,1000px);min-height:1414px;margin:18px auto;background:var(--bg);overflow:hidden;padding:44px 6% 62px;box-shadow:0 0 28px #0009;isolation:isolate}
+.page:before{content:"";position:absolute;inset:0;z-index:-2;background:repeating-linear-gradient(0deg,transparent 0 3px,#ffffff08 3px 4px),radial-gradient(ellipse at 50% 16%,#4a1a8a 0,transparent 30%),linear-gradient(180deg,#0b0620,#0a051c 55%,#0b061d)}
+.page:after{content:"";position:absolute;inset:22px;pointer-events:none;border:1px solid transparent;background:linear-gradient(var(--cyan),var(--cyan)) left top/28px 2px no-repeat,linear-gradient(var(--cyan),var(--cyan)) left top/2px 28px no-repeat,linear-gradient(var(--cyan),var(--cyan)) right top/28px 2px no-repeat,linear-gradient(var(--cyan),var(--cyan)) right top/2px 28px no-repeat,linear-gradient(var(--cyan),var(--cyan)) left bottom/28px 2px no-repeat,linear-gradient(var(--cyan),var(--cyan)) left bottom/2px 28px no-repeat,linear-gradient(var(--cyan),var(--cyan)) right bottom/28px 2px no-repeat,linear-gradient(var(--cyan),var(--cyan)) right bottom/2px 28px no-repeat;opacity:.9;z-index:3}
+.kicker{display:flex;justify-content:space-between;color:var(--pink);font:12px "Roboto Mono",monospace;letter-spacing:.04em;margin:0 0 12px}
+.kicker span:last-child{color:var(--muted)}
+.hero{position:relative;margin:-44px -6.82% 28px;padding:45px 6.82% 0;min-height:370px;overflow:hidden;background:radial-gradient(ellipse at 74% 65%,#7a1fd1 0,transparent 42%),linear-gradient(180deg,#0b0620 0%,#1d0840 43%,#6a1fc4 72%,#b44cff 78%,#0b0620 79%);border-bottom:2px solid var(--pink)}
+.hero:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#fff 1px,transparent 1.3px),radial-gradient(#d4b5ff 1px,transparent 1.5px);background-size:177px 121px,239px 153px;background-position:15px 8px,90px 33px;opacity:.55}
+.hero .kicker{position:relative;z-index:1}
+.name{position:relative;z-index:1;margin:8px 0 13px;font-size:clamp(30px,5vw,48px);font-weight:800;line-height:1.06;letter-spacing:-.04em;text-transform:uppercase;color:#fff;text-shadow:3px 3px 0 var(--purple),-3px -2px 0 var(--cyan)}
+.roles{position:relative;z-index:1;color:var(--cyan);font:700 13px "Roboto Mono",monospace;line-height:1.7}
+.roles div:before{content:"> ";color:var(--pink)}
+.sun{position:absolute;width:210px;height:210px;right:11%;bottom:65px;border-radius:50%;background:linear-gradient(#e9d5ff,#a855f7 70%,#6d28d9);opacity:.98}
+.sun:after{content:"";position:absolute;inset:35% -5% 0;background:repeating-linear-gradient(to bottom,transparent 0 12px,#150a2a 12px 17px)}
+.mountains{position:absolute;bottom:62px;left:50%;width:55%;height:65px;transform:translateX(-10%);background:#0b0620;clip-path:polygon(0 100%,10% 48%,17% 73%,31% 18%,41% 68%,52% 46%,62% 85%,77% 28%,87% 65%,100% 20%,100% 100%);border-bottom:2px solid var(--cyan)}
+.gridfloor{position:absolute;bottom:0;left:0;width:100%;height:115px;background:repeating-linear-gradient(0deg,transparent 0 11px,var(--pink) 11px 13px)}
+.gridfloor:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(78deg,transparent 0 45px,var(--pink) 46px 48px)}
+.columns{display:grid;grid-template-columns:29% 1fr;gap:26px}
+.sidebar{padding-right:10px;border-right:1px solid #2f1f5a}
+.section{margin:0 0 26px;break-inside:avoid}
+.section-title{display:flex;align-items:center;gap:9px;color:var(--cyan);font:700 17px "Roboto Mono",monospace;text-transform:uppercase;margin:0 0 12px;line-height:1.35}
+.section-title:before{content:">";color:var(--pink);border-bottom:3px solid var(--cyan);padding-bottom:5px}
+.section-title:after{content:"";height:1px;flex:1;background:repeating-linear-gradient(90deg,var(--pink) 0 4px,transparent 4px 7px)}
+.small-label{font:700 10px "Roboto Mono",monospace;color:var(--cyan);text-transform:uppercase;margin-top:12px}
+.contact{font-size:11px;overflow-wrap:anywhere}
+a{color:inherit;text-decoration:none}
+.bullet-list{padding:0;margin:0;list-style:none}
+.bullet-list li{position:relative;padding-left:16px;margin:4px 0}
+.bullet-list li:before{content:"▸";position:absolute;left:0;color:var(--pink)}
+p{margin:5px 0 8px}
+h3{font-size:14px;margin:0;font-weight:700}
+.muted{color:var(--muted);font-style:italic}
+.education-item{margin:0 0 9px}
+.project{border:1px solid var(--line);border-left:3px solid var(--pink);background:linear-gradient(100deg,#1a1033dd,#130b2add);padding:12px 14px;margin:9px 0}
+.project:nth-of-type(3){border-left-color:var(--cyan)}.project:nth-of-type(4){border-left-color:#e879f9}.project:nth-of-type(5){border-left-color:#818cf8}
+.project p{margin:2px 0 5px}
+.project .bullet-list{font-size:12px}
+.techline{color:var(--muted);font-size:12px}
+.page-footer{position:absolute;bottom:22px;left:0;right:0;text-align:center;color:var(--muted);font:10px "Roboto Mono",monospace;letter-spacing:.02em}
+.page2{padding-top:45px;background:var(--bg);min-height:1414px}
+.page2-head{display:flex;justify-content:space-between;align-items:center;color:var(--white);font:700 18px "Roboto Mono",monospace;margin-bottom:20px}
+.page2-head span:last-child{font-size:11px;font-weight:400;color:var(--muted)}
+.top-strip{height:100px;margin:-15px -6.82% 28px;background:linear-gradient(180deg,#150828,#4e1a8f 48%,#b44cff 65%,#0c061c 69%);position:relative;overflow:hidden}
+.top-strip:after{content:"";position:absolute;inset:64% 0 0;background:repeating-linear-gradient(0deg,transparent 0 8px,var(--pink) 8px 10px),repeating-linear-gradient(82deg,transparent 0 40px,var(--pink) 41px 43px)}
+.skill-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.skillbox{border:1px solid var(--line);border-left:3px solid var(--pink);padding:14px 17px;background:#1a0f33}
+.skillbox h3{font:700 14px "Roboto Mono",monospace;color:var(--pink);text-transform:uppercase;margin-bottom:8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tag{padding:4px 12px;border-radius:4px;background:#6d4fa8;color:white;font:700 10px Arial}
+.tag.v1{background:#7c3aed}.tag.v2{background:#a855f7}.tag.v3{background:#d8b4fe;color:#1a0b33}.tag.v4{background:#5b21b6}.tag.v5{background:#c026d3}.tag.black{background:#050411;border:1px solid #5d4a8a}
+.skill-right{display:flex;flex-direction:column;gap:10px}
+.caption{font-style:italic;color:var(--muted);margin:8px 0 45px;font-size:12px}
+.quality{border:1px solid var(--line);border-left:3px solid var(--pink);background:#1a0f33;padding:14px 17px;margin-bottom:38px}
+.terminal{border:2px solid var(--cyan);padding:14px 20px;background:#060312;margin-top:38px}
+.terminal strong{display:block;color:var(--cyan);font:700 12px "Roboto Mono",monospace;margin-bottom:6px}
+.terminal em{font-size:15px}
+.cursor{display:inline-block;background:var(--pink);width:10px;height:18px;vertical-align:middle;margin-left:4px}
+.bottom-scene{position:absolute;bottom:0;left:0;right:0;height:370px;background:radial-gradient(ellipse at 50% 65%,#4a1a8a 0,transparent 48%),linear-gradient(180deg,transparent 0%,#110626 40%,#6a1fc4 80%,#b44cff 84%,#0a051c 85%);overflow:hidden}
+.bottom-scene .sun{width:235px;height:235px;bottom:95px;left:50%;right:auto;transform:translateX(-50%)}
+.bottom-scene .gridfloor{height:150px}
+.bottom-scene .horizon{position:absolute;bottom:147px;width:100%;border-top:2px solid var(--pink);box-shadow:0 7px 0 var(--pink),0 14px 0 var(--pink)}
+.page2 .page-footer{z-index:2}
+@media(max-width:680px){.page{margin:0 auto 12px;padding:30px 5% 60px;min-height:auto}.hero{margin:-30px -5.55% 24px;padding:30px 5.55% 0;min-height:310px}.sun{width:130px;height:130px;right:5%;bottom:65px}.columns{grid-template-columns:1fr;gap:12px}.sidebar{border-right:0;border-bottom:1px solid #2f1f5a;padding:0 0 10px}.section-title{font-size:15px}.skill-grid{grid-template-columns:1fr}.page2{min-height:1200px;padding-top:30px}.top-strip{margin:-5px -5.55% 25px}.bottom-scene{height:290px}.page-footer{position:relative;margin-top:35px;bottom:auto}.page2 .page-footer{position:absolute;bottom:20px}.quality,.caption{margin-bottom:25px}}
+@media print{html,body{background:white}.page{width:210mm;height:297mm;min-height:297mm;margin:0;box-shadow:none;page-break-after:always;padding:12mm 12.5mm 15mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}.hero{margin:-12mm -12.5mm 7mm;padding:12mm 12.5mm 0;height:78mm;min-height:0}.name{font-size:32pt}.sun{width:48mm;height:48mm}.columns{gap:5mm}.page2{padding-top:12mm}.top-strip{margin:-4mm -12.5mm 7mm;height:20mm}.bottom-scene{height:78mm}.page-footer{bottom:6mm}.section{margin-bottom:5mm}.project{padding:3mm 4mm;margin:2mm 0}.skillbox{padding:4mm}.caption{margin-bottom:10mm}}
+</style>
+</head>
+<body>
+<section class="page page1">
+ <header class="hero">
+  <div class="kicker"><span>// HOJA DE VIDA.EXE</span><span>[ SYS.ONLINE ]</span></div>
+  <div class="name">CRISTIAN<br>RAMIREZ</div>
+  <div class="roles"><div>APRENDIZ DE ANÁLISIS Y DESARROLLO DE SOFTWARE</div><div>DESARROLLADOR WEB EN FORMACIÓN<span class="cursor" style="height:10px;width:8px;margin-left:3px"></span></div></div>
+  <div class="sun"></div><div class="mountains"></div><div class="gridfloor"></div>
+ </header>
+ <div class="columns">
+  <aside class="sidebar">
+   <section class="section">
+    <h2 class="section-title">Contacto</h2>
+    <div class="small-label">Correo</div><div class="contact">[cristianrami2202@gmail.com]</div>
+    <div class="small-label">Ubicación</div><div class="contact">Medellín, Colombia</div>
+    <div class="small-label">GitHub</div><div class="contact">github.com/[https://github.com/cristianrami2202-ux]</div>
+   </section>
+   <section class="section">
+    <h2 class="section-title">Intereses</h2>
+    <ul class="bullet-list">
+     <li>Desarrollo de aplicaciones web</li><li>Diseño de interfaces con Bootstrap</li><li>Bases de datos SQL y NoSQL</li><li>Documentación y análisis de requisitos</li><li>Programación orientada a objetos</li><li>Motocicletas y movilidad diaria</li>
+    </ul>
+   </section>
+  </aside>
+  <main>
+   <section class="section">
+    <h2 class="section-title">Perfil profesional</h2>
+    <p>Aprendiz de <b>Análisis y Desarrollo de Software en el SENA</b> (ficha 3425707, Medellín), con interés en el desarrollo web, las bases de datos y la documentación de proyectos de software. He trabajado en maquetación de sitios con HTML y Bootstrap 5, lógica de programación en JavaScript y Python, y modelado de bases de datos. Mi proyecto principal es <b>BarberAg</b>, un sistema web para gestionar una barbería en Manrique Jardín, desarrollado en equipo. Busco seguir aprendiendo, trabajar en equipo y construir soluciones útiles.</p>
+   </section>
+   <section class="section">
+    <h2 class="section-title">Formación académica</h2>
+    <div class="education-item"><h3>Tecnólogo en Análisis y Desarrollo de Software</h3><div class="muted">SENA — Medellín · Ficha 3425707 · Actualmente en etapa lectiva</div></div>
+    <div class="education-item"><h3>Guías de aprendizaje desarrolladas</h3><div class="muted">JavaScript avanzado · Pilares de la POO en Python · Bases de datos con SQL y PL/pgSQL</div></div>
+   </section>
+   <section class="section">
+    <h2 class="section-title">Experiencia práctica y proyectos</h2>
+    <article class="project">
+     <h3>BarberAg — Sistema de gestión para barberías</h3><div class="muted">Proyecto formativo SENA · Trabajo en equipo</div>
+     <p>Aplicación web para gestionar una barbería en Manrique Jardín. Participé en:</p>
+     <ul class="bullet-list"><li>SRS con estándar IEEE 830-1998: 84 requisitos funcionales y 35 no funcionales.</li><li>Seis módulos: citas, servicios, usuarios, pagos, suscripciones y reseñas.</li><li>Modelo entidad-relación y mapas de navegación.</li><li>Sitio web en HTML y Bootstrap 5 con estética oscura.</li></ul>
+     <div class="techline"><b>Tecnologías:</b> HTML5, Bootstrap 5, JavaScript, Node.js, Express y MySQL.</div>
+    </article>
+    <article class="project">
+     <h3>TECHSTORE — Tienda de motocicletas</h3><div class="muted">Proyecto de práctica</div>
+     <p>Página de comercio electrónico para motocicletas. <b>Tecnologías:</b> HTML y Bootstrap 5.</p>
+    </article>
+    <article class="project">
+     <h3>El Fogón — Sitio de comida colombiana</h3><div class="muted">Proyecto de práctica</div>
+     <p>Sitio con carruseles, tarjetas de productos y modales de login y registro. <b>Tecnologías:</b> HTML y Bootstrap 5.</p>
+    </article>
+    <article class="project">
+     <h3>AquaPure Colombia — Proyecto integrador</h3><div class="muted">Proyecto académico</div>
+     <p>Documento integrador con identidad corporativa y maqueta de página de ventas. <b>Tecnologías:</b> HTML, CSS y SVG.</p>
+    </article>
+   </section>
+  </main>
+ </div>
+ <footer class="page-footer">CRISTIAN&nbsp; // &nbsp;HOJA DE VIDA&nbsp; // &nbsp;1/2</footer>
+</section>
+<section class="page page2">
+ <div class="page2-head"><span>// STACK_Y_HABILIDADES</span><span>[ PÁGINA 02 ]</span></div>
+ <div class="top-strip"></div>
+ <h2 class="section-title">Habilidades técnicas</h2>
+ <div class="skill-grid">
+  <div class="skillbox">
+   <h3>Bases de datos</h3><div class="tags"><span class="tag v1">MYSQL</span><span class="tag v2">SQL</span><span class="tag v4">PL/PGSQL</span><span class="tag v5">MONGODB</span></div>
+   <ul class="bullet-list"><li>Consultas con JOIN, GROUP BY y subconsultas.</li><li>Procedimientos almacenados y cursores.</li><li>Modelo entidad-relación y relacional.</li><li>Esquemas en MongoDB con $lookup e índices.</li></ul>
+  </div>
+  <div class="skill-right">
+   <div class="skillbox"><h3 style="color:var(--cyan)">Desarrollo web</h3><div class="tags"><span class="tag v1">HTML5</span><span class="tag v2">CSS3</span><span class="tag v3">JAVASCRIPT</span><span class="tag v4">BOOTSTRAP 5</span></div></div>
+   <div class="skillbox"><h3 style="color:#e879f9">Backend</h3><div class="tags"><span class="tag v1">NODE.JS</span><span class="tag black">EXPRESS</span></div></div>
+   <div class="skillbox"><h3 style="color:#c4b5fd">Programación</h3><div class="tags"><span class="tag v2">PYTHON</span><span class="tag v4">POO</span><span class="tag v3">JAVASCRIPT</span></div></div>
+  </div>
+ </div>
+ <p class="caption">Herramientas y áreas trabajadas durante mi proceso formativo en el SENA.</p>
+ <section class="section">
+  <h2 class="section-title">Ingeniería y documentación</h2>
+  <div class="quality"><ul class="bullet-list"><li>Especificación de requisitos de software (IEEE 830-1998).</li><li>Ficha técnica de software y acta de constitución del proyecto.</li><li>Matriz de requisitos y diagramas de navegación.</li><li>Pilares de la POO: abstracción, encapsulación, herencia y polimorfismo.</li><li>Negociación de proyectos de software e infografías técnicas.</li></ul></div>
+ </section>
+ <div class="terminal"><strong>root@cristian:~$ cat lema.txt</strong><em>“Aprender un poco cada día y convertirlo en código que sirva.”</em><span class="cursor"></span></div>
+ <div class="bottom-scene"><div class="sun"></div><div class="horizon"></div><div class="gridfloor"></div></div>
+ <footer class="page-footer">CRISTIAN&nbsp; // &nbsp;HOJA DE VIDA&nbsp; // &nbsp;2/2</footer>
+</section>
+</body>
+</html>
