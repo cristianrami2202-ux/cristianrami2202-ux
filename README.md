@@ -6,7 +6,7 @@
 
 **Aprendiz de Análisis y Desarrollo de Software (SENA) · Medellín, Colombia**
 
-✉️ [tucorreo@ejemplo.com] &nbsp;|&nbsp; 🔗 [LinkedIn](https://linkedin.com/in/tu-usuario) &nbsp;|&nbsp; 💻 [GitHub](https://github.com/cristianrami2202-ux) &nbsp;|&nbsp; 🌐 [Portafolio](https://tu-portafolio.com)
+✉️ [cristianrami2202@ejemplo.com] &nbsp;|&nbsp; 🔗 [LinkedIn](https://linkedin.com/in/tu-usuario) &nbsp;|&nbsp; 💻 [GitHub](https://github.com/cristianrami2202-ux) &nbsp;|&nbsp; 🌐 [Portafolio](https://tu-portafolio.com)
 
 <img src="https://skillicons.dev/icons?i=html,bootstrap,js,nodejs,express,python,mysql,postgres,mongodb&perline=9" alt="Tecnologías"/>
 
